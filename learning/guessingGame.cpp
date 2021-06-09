@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    srand(time(0));
+    srand(time(0)); // agar random bisa berbeda pada setiap program dijalankan
     int number = (rand() % 1000)+ 1;
     int guess = 0;
     do {
